@@ -10,7 +10,8 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # Adds JSON to default outputs for search functionality
 
 [params]
     author = "John Doe"
