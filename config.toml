@@ -14,10 +14,10 @@ pygmentscodefencesguesssyntax = true
   home = ["HTML", "RSS", "JSON"] # Adds JSON to default outputs for search functionality
 
 [params]
-    author = "John Doe"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
+    author = "Zac Heisey"
+    description = "Testing Ground for Hugo SSG"
+    keywords = "hugo,website,static"
+    info = "Test Hugo Site"
 
     hideCredits = false
     hideCopyright = false
@@ -31,15 +31,15 @@ pygmentscodefencesguesssyntax = true
 [[params.social]]
     name = "Github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/zac-heisey"
 [[params.social]]
     name = "Twitter"
     weight = 2
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/zac_heisey/"
 [[params.social]]
     name = "LinkedIn"
     weight = 3
-    url = "https://www.linkedin.com/in/johndoe/"
+    url = "https://www.linkedin.com/in/zacheisey/"
 
 [[menu.main]]
     name = "Blog"
@@ -49,3 +49,7 @@ pygmentscodefencesguesssyntax = true
     name = "About"
     weight = 2
     url = "/about/"
+[[menu.main]]
+    name = "Search"
+    weight = 3
+    url = "/search/"
