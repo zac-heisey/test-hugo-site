@@ -1,9 +1,12 @@
 ---
+# Use YAML front matter in order to work with other search files
 title: "Search Results"
 sitemap:
-  priority : 0.1
+  priority: 0.1
 layout: "search"
 ---
+
+## Client side searching for Hugo.io with Fuse.js
 
 This file exists solely to respond to /search URL with the related `search` layout template.
 
@@ -13,6 +16,7 @@ Setting a very low sitemap priority will tell search engines this is not importa
 
 This implementation uses Fusejs, jquery and mark.js
 
+[See GitHub Gist & Samples](https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae)
 
 ## Initial setup
 
