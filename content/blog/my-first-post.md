@@ -1,7 +1,9 @@
 +++
-date = 2018-06-20T11:26:55-04:00
 title = "My First Post"
-slug = ""
+date = 2018-06-20T11:26:55-04:00
+description = "Testing 123: My First Post"
+tags = ["tag1", "tag2"]
+categories = ["category1", "category2"]
 +++
 
 This is my first blog post using Hugo. Let's do this!
