@@ -27,3 +27,5 @@ fields:
   name: author
   label: Author
   default: Zac Heisey
+pages:
+- content/blog/another-forestry-post.md
