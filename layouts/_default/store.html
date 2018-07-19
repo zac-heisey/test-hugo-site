@@ -1,0 +1,15 @@
+{{ define "content" }}
+
+{{ $products := .Site.Data.products }}
+
+<section class="container page">
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ range $products }}
+        {{ partial "product.html" . }}
+    {{ end }}
+  </article>
+</section>
+{{ end }}

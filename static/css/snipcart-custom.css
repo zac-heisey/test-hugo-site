@@ -1,0 +1,9 @@
+/* Custom Snipcart Styles */
+
+h2#snipcart-title {
+  color: #fff;
+}
+
+.snip-layout .snip-header__total-label {
+  color: greenyellow;
+}
