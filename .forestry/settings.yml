@@ -5,12 +5,7 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: heading
-  label: Data Files
-- type: directory
-  path: data
-  label: Products
-  create: all
-  match: "**/*"
+  label: Content
 - type: directory
   path: content/blog
   label: Blog
@@ -21,6 +16,13 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Data Files
+- type: directory
+  path: data
+  label: Products
+  create: all
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
