@@ -7,8 +7,8 @@ sections:
 - type: heading
   label: Data Files
 - type: directory
-  path: _data
-  label: Information
+  path: data
+  label: Products
   create: all
   match: "**/*"
 - type: directory
